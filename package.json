@@ -26,8 +26,7 @@
     "test": "mocha test/test.js --require should --reporter spec"
   },
   "dependencies": {
-    "amp-message": "~0.1.2",
-    "buffertools": "~2.1.2"
+    "amp-message": "~0.1.2"
   },
   "devDependencies": {
     "mocha": "~1.21.3",
@@ -37,7 +36,7 @@
   "analyze": false,
   "license": "MIT",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=1.5"
   },
   "readmeFilename": "README.md"
 }
