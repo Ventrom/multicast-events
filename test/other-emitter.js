@@ -3,4 +3,8 @@ var emitter = new EventEmitter({
   foreignOnly: true
 });
 
-emitter.emit('process', 'message');
+try {
+  emitter.emit('process', 'message');
+} catch(e) {
+  console.error(e);
+}
